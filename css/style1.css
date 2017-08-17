@@ -177,7 +177,7 @@ button:focus {
 }
 
 #main {
-  background-image: url("/assets/css/images/dark-tl.svg"), url("/assets/css/images/dark-tr.svg"), url("/assets/css/images/dark-bl.svg"), url("/assets/css/images/dark-br.svg");
+  background-image: url("/karleyportfolio/assets/css/images/dark-tl.svg"), url("/karleyportfolio/assets/css/images/dark-tr.svg"), url("/karleyportfolio/assets/css/images/dark-bl.svg"), url("/karleyportfolio/assets/css/images/dark-br.svg");
   background-position: top left, top right, bottom left, bottom right;
   background-repeat: no-repeat;
   background-size: 25em;
