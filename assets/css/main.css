@@ -2448,7 +2448,7 @@
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 7em 0;
+		padding: 3em 0;
 	}
 
 		#main > :last-child {
@@ -2533,8 +2533,8 @@
 		/* Section/Article */
 
 			header.special {
-				padding-top: 5.5em;
-				margin-bottom: 4em;
+				padding-top: 4.5em;
+				margin-bottom: 0em;
 			}
 
 	}
@@ -3177,5 +3177,3 @@
 			}
 
 	}
-
-	
