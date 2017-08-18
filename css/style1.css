@@ -267,6 +267,14 @@ header.special {
     			display: none;
     		}
 
+        .icon:before {
+            -webkit-font-smoothing: antialiased;
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            text-transform: none !important;
+        }
+
 /* Grid container */
 .grid {
   position: relative;
