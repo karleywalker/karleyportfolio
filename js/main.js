@@ -34,7 +34,7 @@
 		gridEl = document.getElementById('theGrid'),
 		sidebarEl = document.getElementById('theSidebar'),
 		gridItemsContainer = gridEl.querySelector('section.grid'),
-		contentItemsContainer = gridEl.querySelector('section.hey'),
+		contentItemsContainer = gridEl.querySelector('section.content'),
 		gridItems = gridItemsContainer.querySelectorAll('.grid__item'),
 		contentItems = contentItemsContainer.querySelectorAll('.content__item'),
 		closeCtrl = contentItemsContainer.querySelector('.close-button'),
