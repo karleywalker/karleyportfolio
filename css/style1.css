@@ -982,7 +982,7 @@ header.special {
     right: 5px;
     bottom: 5px;
     left: 5px;
-    border: 1px solid rgba(74, 74, 74, 0.075);
+    border: 3px solid rgba(74, 74, 74, 0.075);
     -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s;
   }
