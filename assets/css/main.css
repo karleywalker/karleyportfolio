@@ -1681,7 +1681,7 @@
 		}
 
 		header.special h2 {
-			margin-bottom: 0;
+			margin-bottom: 10px;
 		}
 
 		header.special h2 + p {
@@ -1916,6 +1916,8 @@
 
 	ul.icons {
 		cursor: default;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
 		ul.icons li {
