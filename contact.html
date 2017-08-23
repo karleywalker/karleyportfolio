@@ -1,3 +1,17 @@
+<?php
+if(isset($_POST['submit'])){
+    $to = "kbw2as@virginia.edu";
+    $from = $_POST['email'];
+    $name = $_POST['name'];
+    $subject = $_POST['subject'];
+    $message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    mail($to,$subject,$message,$headers);
+    echo "Mail Sent. Thank you " . $name . "!";
+    }
+?>
+
 <!DOCTYPE HTML>
 <!--
 	Twenty by HTML5 UP
@@ -9,10 +23,7 @@
 		<title>Contact</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body class="contact">
 		<div id="page-wrapper">
@@ -45,7 +56,7 @@
 
 							<!-- Content -->
 								<div class="content">
-									<form>
+									<form action="" method="post">
 										<div class="row 50%">
 											<div class="6u 12u(mobile)">
 												<input type="text" name="name" placeholder="Name" />
