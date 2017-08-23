@@ -4,7 +4,7 @@ if(isset($_POST['submit'])){
     $from = $_POST['email'];
     $name = $_POST['name'];
     $subject = $_POST['subject'];
-    $message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message = $_POST['message'];
 
     $headers = "From:" . $from;
     mail($to,$subject,$message,$headers);
@@ -78,7 +78,7 @@ if(isset($_POST['submit'])){
 										<div class="row">
 											<div class="12u">
 												<ul class="buttons">
-													<li><input type="submit" class="special" value="Send Message" /></li>
+													<li><input type="submit" name="submit" class="special" value="Send Message" /></li>
 												</ul>
 											</div>
 										</div>
