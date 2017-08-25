@@ -135,7 +135,7 @@
 
 		// insert it after all the grid items
 		gridItemsContainer.appendChild(dummy);
-
+		console.log('dddfdfddfdfddfdfddfuplease');
 		// body overlay
 		classie.add(bodyEl, 'view-single');
 

@@ -927,6 +927,11 @@ header.special {
     /*margin-left: 300px;*/
   }
 
+  .fill-screen {
+    top: 0;
+    position: absolute;
+  }
+
   .content__item {
     font-size: 1em;
   }
