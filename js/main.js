@@ -135,7 +135,7 @@
 
 		// insert it after all the grid items
 		gridItemsContainer.appendChild(dummy);
-		document.getElementById('theGrid').addClass('fill-screen');
+		document.getElementById('theGrid').className = "fill-screen"
 		// body overlay
 		classie.add(bodyEl, 'view-single');
 
