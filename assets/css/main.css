@@ -56,6 +56,10 @@
 		box-sizing: border-box;
 	}
 
+	.personal-image {
+		max-width: 100%;
+	}
+
 /* Containers */
 
 	.container {
