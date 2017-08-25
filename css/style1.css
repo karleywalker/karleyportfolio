@@ -925,8 +925,6 @@ header.special {
   .main {
     height: 100%;
     /*margin-left: 300px;*/
-    top: 0;
-    position: absolute;
   }
 
   .content__item {
