@@ -567,7 +567,7 @@ header.special {
   margin: 2em auto;
   height: auto;
   width: auto;
-  max-width: 50px; 
+  max-width: 50px;
 }
 
 .meta--preview .meta__avatar {
@@ -925,6 +925,8 @@ header.special {
   .main {
     height: 100%;
     /*margin-left: 300px;*/
+    top: 0;
+    position: absolute;
   }
 
   .content__item {
