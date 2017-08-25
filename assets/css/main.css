@@ -2181,6 +2181,10 @@
 		z-index: 10000;
 	}
 
+	.fill-screen {
+		z-index: 10001;
+	}
+
 		#header h1 {
 			font-weight: 900;
 			margin: 0;
