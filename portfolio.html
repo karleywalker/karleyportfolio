@@ -123,6 +123,18 @@
 							</section>
 							<section class="content">
 								<div class="scroll-wrap">
+									<!-- The Modal -->
+										<div id="myModal" class="modal">
+
+											<!-- The Close Button -->
+											<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+											<!-- Modal Content (The Image) -->
+											<img class="modal-content" id="img01">
+
+											<!-- Modal Caption (Image Text) -->
+											<div id="caption"></div>
+										</div>
 									<article class="content__item">
 										<span class="category category--full">Center for Open Science</span>
 										<h2 class="title title--full">OSF Pages</h2>
@@ -135,7 +147,7 @@
 										<p>August 1 – OSF Pages Mockup for Column-Layers</p>
 										<div class="row">
 											<div class="col-md-6">
-												<img src="images/portfolio/2-column-theme.png" />
+												<img id="clickable" src="images/portfolio/2-column-theme.png" />
 											</div>
 											<div class="col-md-6">
 												<img src="images/portfolio/2-column-2-0.png" />
